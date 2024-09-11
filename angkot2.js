@@ -6,3 +6,6 @@ while(noAngkot<=angkotBeroperasi){
     console.log("angkot no"+noAngkot+"beroperasi dengan baik");
     noAngkot++;
 }
+for(noAngkot=angkotBeroperasi+1; noAngkot<=jmlAngkot;noAngkot++){
+    console.log('Angkot No. '+noAngkot+'sedang tidak beroperasi');
+}
